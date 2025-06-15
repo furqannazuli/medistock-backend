@@ -4,8 +4,8 @@ from app.core.security import hash_password
 
 def create_demo_user():
     db = SessionLocal()
-    username = "admin"
-    password = "admin"
+    username = "coba"
+    password = "coba"
     role = "admin"
 
     user = db.query(User).filter_by(username=username).first()
